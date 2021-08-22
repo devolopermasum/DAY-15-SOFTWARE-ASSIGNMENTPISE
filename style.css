@@ -1,0 +1,227 @@
+/* ==========DEFAULT CSS START============ */
+*{
+    margin: 0;
+    padding:0;
+}
+.clearfix::after{
+    content: "";
+    clear: both;
+    display: block;
+}
+.wrapper{
+    width: 800px;
+    margin: auto;
+}
+img{
+    max-width: 100%;
+}
+/* ==========DEFAULT CSS END============ */
+/* ==========HEADER CSS START============ */
+.header{
+    background-color:#22c3a3;
+    padding: 10px 0px;
+}
+.header-logo{
+    float: left;
+    width: 30%;
+}
+.header-logo h1{
+    text-align: center;
+    color: white;
+}
+.header-menu{
+    float: right;
+    width: 70%;
+}
+.header-menu ul{
+    text-align: right;
+}
+.header-menu ul li{
+    display: inline-block;
+}
+.header-menu ul li a{
+    display: inline-block;
+	text-decoration: none;
+	padding: 4px 20px;
+	color: rgba(255, 255, 255, 0.84);
+	font-size: 15px;
+	line-height: 30px;
+}
+/* ==========HEADER CSS END============ */
+/* ==========BANNER CSS START============ */
+.banner{
+    background:url(https://i.ibb.co/vV2VL01/header-bg01.jpg)no-repeat center center ;
+    background-size: cover;
+    padding: 250px 0px;
+}
+.banner-content{
+    text-align: center;
+}
+.banner-content h1{
+	color: white;
+    font-size: 50px;
+	margin-bottom: 20px;
+}
+.banner-content h2{
+	color: rgba(255, 255, 255, 0.812);
+	font-size: 20px;
+}
+.banner-content button {
+	font-size: 22px;
+	background: transparent;
+	padding: 10px 20px;
+	border: none;
+    color: white;
+	border: 1px solid white;
+	margin-top: 20px;
+    border-radius: 5px;
+}
+/* ==========BANNER CSS END============ */
+/* ==========SERVICE CSS START============ */
+.service{
+    text-align: center;
+    margin: 50px 0px;
+    border-bottom: 2px solid #22c3a3;
+}
+.service-wrapper{
+    width: 1000px;
+    margin: auto;
+}
+.service h1{
+    font-size: 35px;
+    margin-bottom: 20px;
+    /* font-family: 'Open Sans', sans-serif; */
+    font-weight: bold;
+    color: rgba(0, 0, 0, 0.757);
+}
+.service #lorem{
+    margin-bottom: 100px;
+    font-family:sans-serif;
+    color: rgba(0, 0, 0, 0.757);
+}
+/* ====BOX STYLE START===== */
+.service-box{
+    float: left;
+    width: 20%;
+    margin-left: 5%;
+    box-sizing: border-box;
+    margin-bottom: 100px;
+}
+.service-box i{
+    font-size: 30px;
+    color: #22c3a3;
+}
+.service-box h2{
+    margin: 20px 0px 5px 0px;
+    font-family: 'Open Sans', sans-serif;
+    color: rgba(0, 0, 0, 0.583);
+    font-size: 23px;
+}
+.service-box p{
+    font-size: 16px;
+    font-family: sans-serif;
+    font-weight: 500;
+}
+/* ==========SERVICE CSS END============ */
+/* ==========ABOUT CSS START============ */
+.about{
+    margin-bottom: 100px;
+}
+.about h1{
+    font-size: 35px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+.about p{
+    text-align: center;
+    font-family: 'Open Sans', sans-serif;
+    color: rgba(0, 0, 0, 0.757);
+}
+/* =====CONTENT START===== */
+.about-content{
+    margin-top: 50px;
+    padding: 0px 30px;
+}
+.about-content-left{
+    float: left;
+    width: 47%;
+}
+.about-content-left img{
+    width: 500px;
+}
+.about-content-right{
+    float: right;
+    width: 52%;
+}
+.right-content{
+    margin-bottom: 20px;
+}
+.right-content h2{
+    color: rgba(0, 0, 0, 0.604);
+}
+.right-content p{
+    text-align: left;
+    margin-top: 5px;
+    font-size: 15px;
+    font-family: sans-serif;
+    color: rgba(0, 0, 0, 0.757);
+}
+/* ==========ABOUT CSS END============ */
+/* ==========CONTACT CSS START============ */
+.contact{
+    background-color: #f6f6f6;
+}
+.contact h1{
+    font-size: 35px;
+    margin: 0px 0px 20px 0px;
+    text-align: center;
+    padding-top: 50px;
+    color: rgba(0, 0, 0, 0.757);
+}
+.contact p{
+    font-size: 17px;
+    text-align: center;
+    color: rgba(0, 0, 0, 0.757);
+    font-family: sans-serif;
+}
+/* ====CONTACT BOX===== */
+div[class^="contact"]{
+    float: left;
+    width: 33%;
+    text-align: center;
+    margin: 50px 0px 50px 0px;
+}
+.contact i{
+    color:#22c3a3 ;
+}
+.contact h3{
+    margin: 10px 0px 5px 0px;
+    color: rgba(0, 0, 0, 0.548);
+    font-size: 17px;
+}
+/* ==========CONTACT CSS END============ */
+.footer{
+    background-color: #22c3a3;
+    text-align: center;
+    padding: 15px 0px;
+}
+.footer a{
+    color: black;
+    font-size: 35px;
+    margin-left: 20px;
+    color: white;
+}
+/* ==========CONTACT CSS END============ */
+/* ==========FOOTER BOTTOM CSS START============ */
+.footer-bottom{
+    background-color: black;
+    padding: 10px 0px;
+}
+.footer-bottom h2{
+    font-size: 17px;
+    color: rgba(229, 229, 229, 0.264);
+    text-align: center;
+    font-family: sans-serif;
+    font-weight: 200;
+}
+/* ==========FOOTER BOTTOM CSS END============ */
